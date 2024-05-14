@@ -15,6 +15,4 @@ cd demo-marketplace && ./vendor/bin/sail up
 Stop:
 ./vendor/bin/sail down
 
-Update the default ports in docker-compose.yml
-
-http://localhost:8000/
+http://localhost/
