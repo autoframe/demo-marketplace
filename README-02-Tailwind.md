@@ -1,7 +1,7 @@
 https://tailwindcss.com/docs/guides/laravel
 https://v2.tailwindcss.com/docs/installation
 
-Run terminal
+To install, run in terminal
 
     vendor/bin/sail npm install -D tailwindcss postcss autoprefixer browser-sync daisyui
     vendor/bin/sail npx tailwindcss init -p
@@ -13,7 +13,7 @@ reset rights if needed
     sudo chmod -R 755 ./
 
 
-open tailwind.config.js and add into content:
+Open tailwind.config.js and add into content:
 
     content: [
         "./resources/**/*.blade.php",
@@ -28,7 +28,7 @@ Open app.css and add into content:
     @tailwind components;
     @tailwind utilities;
 
-Start your build process in container terminal
+Start your build process in terminal
 
     vendor/bin/sail npm run dev
     vendor/bin/sail npm run watch
